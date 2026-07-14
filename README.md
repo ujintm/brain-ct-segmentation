@@ -22,20 +22,11 @@ This pipeline processes a DICOM CT volume and extracts a rough ventricle mask us
 
 
 ## Example Result
-Original CT	Segmentation
+### Original CT	Segmentation
 <img width="2209" height="458" alt="opencv_108" src="https://github.com/user-attachments/assets/6fb91be7-8aed-43af-a994-1ce2537ffdf0" />
 <img width="2209" height="458" alt="opencv_137" src="https://github.com/user-attachments/assets/d02996e6-ddf5-4681-8d37-1ccd8101ca3c" />
 
-MedSAM
-<img width="1000" height="500" alt="MedSAM_108" src="https://github.com/user-attachments/assets/f1fc396b-aa52-4444-8fb5-1830c88845a3" />
-<img width="1000" height="500" alt="MedSAM_137" src="https://github.com/user-attachments/assets/69de3fdf-cb30-4337-84fe-1705eb2ed6a4" />
-
-
-## Comparison
-
-This repository includes both:
-
-- Classical OpenCV pipeline
-- MedSAM foundation model inference
-
-to compare rule-based and learning-based medical image segmentation approaches.
+### MedSAM
+For qualitative comparison, the pretrained MedSAM model was applied to the same CT slices using manually defined bounding-box prompts. No additional fine-tuning or task-specific training was performed.
+<img width="600" height="300" alt="MedSAM_108" src="https://github.com/user-attachments/assets/f1fc396b-aa52-4444-8fb5-1830c88845a3" />
+<img width="600" height="300" alt="MedSAM_137" src="https://github.com/user-attachments/assets/69de3fdf-cb30-4337-84fe-1705eb2ed6a4" />
