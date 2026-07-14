@@ -9,7 +9,7 @@ This project was implemented as a simple baseline before exploring deep learning
 This pipeline processes a DICOM CT volume and extracts a rough ventricle mask using Hounsfield Unit (HU) thresholding and morphological image processing.
 
 ### Pipeline
-<img width="2164" height="1347" alt="pipeline" src="https://github.com/user-attachments/assets/adb47b9b-77e2-4ecb-b0dc-b3109279c997" />
+<img width="1547" height="943" alt="pipeline" src="https://github.com/user-attachments/assets/adb47b9b-77e2-4ecb-b0dc-b3109279c997" />
 
 1. Load DICOM CT series
 2. Convert pixel values to Hounsfield Units (HU)
